@@ -1,0 +1,54 @@
+{
+  "todos": [
+    {
+      "title": "React Query",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere consequuntur laborum distinctio suscipit. Sequi fuga quidem amet quam ducimus ipsum neque nam consectetur omnis?",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "NextJS",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum re",
+      "completed": true,
+      "id": 6
+    },
+    {
+      "title": "React",
+      "body": "  <li\n      className={clsx(\n        'border p-3 rounded-md flex flex-col justify-between gap-4',\n        { 'dark:bg-[#0b553d] bg-green-100': completed }\n      )}\n    >",
+      "completed": false,
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "todoId": 5,
+      "name": "Pavel",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons"
+    },
+    {
+      "id": 2,
+      "todoId": 5,
+      "name": "Alex",
+      "text": "Lorem ipsum dolor sit amet consectetur!"
+    },
+    {
+      "id": 2,
+      "todoId": 5,
+      "name": "Alex",
+      "text": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons"
+    },
+    {
+      "id": 2,
+      "todoId": 5,
+      "name": "Alex",
+      "text": "Lorem ipsum dolor sit amet consectetur!"
+    },
+    {
+      "id": 2,
+      "todoId": 5,
+      "name": "Alex",
+      "text": "Lorem ipsum dolor sit amet consectetur!"
+    }
+  ]
+}
