@@ -7,6 +7,11 @@ export class TodoService {
     return response.data;
   }
 
+  static async getTodoIds(): Promise<number[]> {
+    const response = await axiosInstance.get('/todos');
+    return response.data.map((todo: ITodo) => todo.id);
+  }
+
   static async getTodoById(id: number): Promise<ITodo> {
     const response = await axiosInstance.get(`/todos/${id}`);
     return response.data;

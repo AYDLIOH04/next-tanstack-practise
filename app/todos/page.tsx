@@ -1,4 +1,4 @@
-import { AddTodoForm, TodoList } from './(todo)';
+import { AddTodoForm, TodoList } from './(components)';
 
 export default function Todos() {
   return (

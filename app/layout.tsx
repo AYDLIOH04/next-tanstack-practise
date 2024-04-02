@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
 import { Sora } from 'next/font/google';
 import './globals.css';
-import { ReactQueryProvider, ThemeProvider } from '@/components/providers';
+import {
+  NextInterfaceProvider,
+  ReactQueryProvider,
+  ThemeProvider,
+} from '@/components/providers';
 import { Header } from '@/components/header';
 
 const sora = Sora({ subsets: ['latin'] });
@@ -21,8 +25,10 @@ export default function RootLayout({
       <html lang="en">
         <body className={sora.className}>
           <ThemeProvider>
-            <Header />
-            <main className="container mx-auto">{children}</main>
+            <NextInterfaceProvider>
+              <Header />
+              <main className="container mx-auto">{children}</main>
+            </NextInterfaceProvider>
           </ThemeProvider>
         </body>
       </html>

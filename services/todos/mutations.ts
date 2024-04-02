@@ -1,21 +1,6 @@
-import { useQuery, useQueryClient, useMutation } from '@tanstack/react-query';
+import { useQueryClient, useMutation } from '@tanstack/react-query';
 import { TodoService } from './api';
 import { ITodo, ITodoInput } from './types';
-
-export const useTodoList = () => {
-  return useQuery({
-    queryKey: ['todos'],
-    queryFn: TodoService.getTodos,
-    refetchInterval: 5 * 1000,
-  });
-};
-
-export const useTodo = (id: number) => {
-  return useQuery({
-    queryKey: ['todos', id],
-    queryFn: () => TodoService.getTodoById(id),
-  });
-};
 
 export const useAddTodo = () => {
   const queryClient = useQueryClient();
@@ -38,5 +23,10 @@ export const useToggleTodo = () => {
   return useMutation({
     mutationFn: (todo: ITodo) => TodoService.toggleTodo(todo),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['todos'] }),
+    // onSettled: (_, error, variables) => {
+    //   queryClient.invalidateQueries({
+    //     queryKey: ['todo', { id: variables.id }],
+    //   });
+    // },
   });
 };

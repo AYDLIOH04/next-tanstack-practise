@@ -1,11 +1,11 @@
 'use client';
 
-import { useTodoList } from '@/services/todos';
+import { useTodos } from '@/services/todos';
 import { TodoItem } from './item';
 import { Loader } from '@/components';
 
 export const TodoList = () => {
-  const { data, error, isPending } = useTodoList();
+  const { data, error, isPending } = useTodos();
 
   if (error) return <div className="text-rose-400">Something went wrong.</div>;
 

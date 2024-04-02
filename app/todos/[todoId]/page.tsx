@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Todo } from '../(todo)';
+import { Todo } from '../(components)';
 import { IoIosArrowForward } from 'react-icons/io';
 
 export default function TodoPage({ params }: { params: { todoId: string } }) {

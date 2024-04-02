@@ -50,5 +50,52 @@
       "name": "Alex",
       "text": "Lorem ipsum dolor sit amet consectetur!"
     }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "title": "NextJs",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facer"
+    },
+    {
+      "id": 2,
+      "title": "Recoil",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit amet cer"
+    },
+    {
+      "id": 3,
+      "title": "Redux",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 4,
+      "title": "React",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
+    },
+    {
+      "id": 5,
+      "title": "NestJs",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
+    },
+    {
+      "id": 6,
+      "title": "Angular",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
+    },
+    {
+      "id": 7,
+      "title": "Vue",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
+    },
+    {
+      "id": 8,
+      "title": "MobX",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
+    },
+    {
+      "id": 9,
+      "title": "BebraJs",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
+    }
   ]
 }

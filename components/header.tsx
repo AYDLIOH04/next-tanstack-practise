@@ -7,6 +7,7 @@ export const Header = () => {
       <nav className="flex flex-row items-center gap-4">
         <Link href="/">Home</Link>
         <Link href="/todos">Todos</Link>
+        <Link href="/programs">Programs</Link>
       </nav>
       <ThemeToggle />
     </header>
