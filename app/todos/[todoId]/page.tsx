@@ -6,7 +6,7 @@ export default function TodoPage({ params }: { params: { todoId: string } }) {
   const todoId = Number(params.todoId);
 
   return (
-    <main className="flex min-h-[calc(100vh-64px)] flex-col items-center">
+    <main className="flex min-h-[calc(100vh-64px)] flex-col items-center px-20">
       <div className="pt-20 self-start mb-10 flex justify-center items-center gap-1 px-4">
         <Link href="/todos" className="font-semibold hover:underline">
           Todos
