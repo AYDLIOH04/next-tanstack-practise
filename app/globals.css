@@ -6,4 +6,8 @@
   body {
     @apply dark:text-white dark:bg-[#222] text-[#222] bg-white;
   }
+
+  body.modal-scroll-disabled {
+    @apply overflow-hidden;
+  }
 }

@@ -1,11 +1,11 @@
-import { ProgramList } from "./(components)";
+import { ProductList } from './(components)';
 
-const Programs = () => {
+const Products = () => {
   return (
     <section className="min-h-[calc(100vh-64px)] px-20 flex items-center justify-center text-start">
-      <ProgramList />
+      <ProductList />
     </section>
   );
 };
 
-export default Programs;
+export default Products;

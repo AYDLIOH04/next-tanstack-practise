@@ -8,6 +8,7 @@ export const Header = () => {
         <Link href="/">Home</Link>
         <Link href="/todos">Todos</Link>
         <Link href="/programs">Programs</Link>
+        <Link href="/products">Products</Link>
       </nav>
       <ThemeToggle />
     </header>

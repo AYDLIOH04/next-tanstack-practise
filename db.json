@@ -97,5 +97,103 @@
       "title": "BebraJs",
       "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elit. Laboriosam asperiores harum recusandae adipisci voluptas? Facere cons  dolor sit eqweqw asdase qdsa"
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://lipsum.app/id/1/400x400",
+      "name": "iPhone",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 2,
+      "image": "https://lipsum.app/id/2/400x400",
+      "name": "iPhoqweqwene",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcerLorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 3,
+      "image": "https://lipsum.app/id/3/400x400",
+      "name": "iPhqweeqwone",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 4,
+      "image": "https://lipsum.app/id/4/400x400",
+      "name": "iPudge",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 5,
+      "image": "https://lipsum.app/id/5/400x400",
+      "name": "eqwe",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 6,
+      "image": "https://lipsum.app/id/6/400x400",
+      "name": "iPhone Dota",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 7,
+      "image": "https://lipsum.app/id/7/400x400",
+      "name": "iPhone Gold Edition",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 8,
+      "image": "https://lipsum.app/id/8/400x400",
+      "name": "iPhone Bebra Version",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 9,
+      "image": "https://lipsum.app/id/9/400x400",
+      "name": "iPhone Extra Ultra Max Plus +",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 10,
+      "image": "https://lipsum.app/id/10/400x400",
+      "name": "iPhone 8 Plus",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 11,
+      "image": "https://lipsum.app/id/11/400x400",
+      "name": "iPhone 15+",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 12,
+      "image": "https://lipsum.app/id/12/400x400",
+      "name": "iPhone 13",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 13,
+      "image": "https://lipsum.app/id/13/400x400",
+      "name": "iPhone 14",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 14,
+      "image": "https://lipsum.app/id/14/400x400",
+      "name": "iPhone XS",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 15,
+      "image": "https://lipsum.app/id/15/400x400",
+      "name": "Macbook",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    },
+    {
+      "id": 16,
+      "image": "https://lipsum.app/id/16/400x400",
+      "name": "BerbaBook",
+      "description": "Lorem ipsum dolor sit amet consectetur! dolor sit amet consectetur adipisicing elitcer"
+    }
   ]
 }
